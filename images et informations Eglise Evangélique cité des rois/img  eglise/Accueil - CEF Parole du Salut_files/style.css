@@ -1,0 +1,163 @@
+﻿.minifrontpage-default .clrfix {
+	clear: both;
+}
+#minifrontpageid {
+}
+.minifrontpage-default .mfp-table-cell {
+	text-align: left;
+}
+.minifrontpage-default .mfp-table-cell-inner {
+	margin-right: 10px;
+}
+.minifrontpage-default .mfp-table-cell p {
+	font-size: 12px;
+	color: #666;
+	/*padding: 10px;
+	background: none;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 10px #eee;*/
+	margin: 0 0 10px 0;
+	/*text-shadow: 0 1px 0 #fff;*/
+	line-height: normal;
+	font-family:arial;
+}
+.minifrontpage-default .mfp-table-cell:hover p {
+	background: none;
+	box-shadow: none;
+}
+.minifrontpage-default .mfp-date-author {
+	font-size:80%;
+	line-height: 120%;
+	color: #666;
+	margin-bottom: 10px;
+	display: block;
+}
+.minifrontpage-default a.mfp-readon {
+	/*background: url(bgradeon.gif);*/
+color:#523CA9;
+	/*padding: 5px 10px;*/
+	font-size: 110%;
+	text-decoration: none;
+	margin: 0 0 10px 0!important;
+	display: inline-block;
+	font-family:Times New Roman;
+	font-weight:bold;
+
+	/*border:1px solid #523CA9;*/
+}
+.minifrontpage-default a.mfp-readon:hover, visited {
+	/*background: none!important;*/
+	text-decoration:none;
+	color:#A81D1A;
+}
+.minifrontpage-default .mfp-introtitle {
+
+	/* display: inline-block; */
+	vertical-align: top;
+	font-size: 15px;
+	line-height: normal;
+	color:#CC9900;
+	margin-bottom: 5px;
+		font-family:Oswald,Cambria, Times New Roman ;
+}
+.minifrontpage-default .mfp-introtitle a{color:#523CA9;text-decoration:none;}
+.minifrontpage-default .mfp-introtitle a:hover, visited{color:#A81D1A;text-decoration:none;}
+.minifrontpage-default .mfp-other-article {
+	text-align: left;
+	vertical-align: top;	
+}
+.minifrontpage-default .mfp-other-article-inner  a:hover {text-decoration:none;color:#A81D1A;}
+.minifrontpage-default .mfp-other-article-inner  a {text-decoration:none;color:#523CA9;}
+.minifrontpage-default .mfp-other-article-inner {
+	font-size: 100%;
+	color: #666;
+	padding: 5px 10px;
+	background: #ffffff;
+	border-top:1px dotted #cccccc;
+	border-bottom:1px dotted #cccccc;
+	margin: 10px 10px 0 0;
+	text-shadow: 0 1px 0 #fff;
+	line-height: normal;
+	width:96%;
+}
+.last-cell {
+ 	margin-right: 0!important;
+ }
+.minifrontpage-default .mfp-other-article-inner li {
+	margin-left: 10px;
+	list-style: disc!important;
+}
+.minifrontpage-default .mfp-other-article-title {
+	text-transform: none;
+	font-size: 11px;
+	color: #666;
+	display: block;
+	margin: 3px 0;
+	line-height: 130%;
+	font-weight: 700;
+
+}
+.minifrontpage-default #mfptabs ul{
+	position:relative;
+	margin-left: 0!important;
+	padding-left: 0!important;
+	margin-bottom: 10px!important;
+	display: inline-block;
+	float: right;
+}
+.minifrontpage-default #mfptabs ul li{
+	float:left;
+	width:6px;
+	height:6px;
+	background:#ccc;
+	cursor:pointer;
+	list-style-type:none!important;
+	text-align:center;
+	margin-right:5px !important;
+	border-radius: 6px;
+	box-shadow: inset 0px -1px 2px #bbb;
+}
+.minifrontpage-default #mfptabs ul li.activex {
+	background: #666;
+	box-shadow: inset 0px -1px 2px #111;
+}
+.minifrontpage-default #mfptabs ul li:hover{
+	background:#333;
+}
+.minifrontpage-default .minifrontpageid {
+	table-layout: fixed;
+	z-index: 99999!important;
+	overflow: hidden!important;
+}
+.minifrontpage-default .anim-div {
+	z-index: 1!important;
+}
+.minifrontpage-default .mfp-table-cell-inner .mfp-img-left {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.minifrontpage-default .mfp-table-cell-inner .mfp-img-right {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.minifrontpage-default .mfp-categ {
+}
+.minifrontpage-default .mfp-categ a {
+	display: inline-block;
+	font-size: 80%;
+	background: url(../../../../images/categ.png) 5px 50% no-repeat #f0f0f0;
+	padding: 5px 10px !important;
+	margin: 0 5px 10px 0;
+	border-radius: 4px;
+	text-decoration: none;
+	text-indent: -9999px;
+	width: 10px;
+}
+.minifrontpage-default .mfp-categ a:hover {
+	background: url(../../../../images/categ.png) 5px 50% no-repeat #666!important;
+	text-indent: 20px;
+	width: auto;
+	position: absolute;
+	z-index: 99999;
+	color: #fff;
+}
